@@ -61,7 +61,7 @@ addTodo.addEventListener("click", () => {
   copyOfCard.setAttribute("style", "margin-left: 12px;");
   var inner_button = document.createElement("button");
   inner_button.setAttribute("id", `abc-${Date.now()}`);
-  // inner_button.setAttribute("class", "mark-as-done-class");
+
   inner_button.setAttribute("value", Date.now());
   inner_button.setAttribute("onclick", "completedTask(this.value)");
   inner_button.innerText = "done";

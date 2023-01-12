@@ -90,7 +90,7 @@
   }
   .middle_container {
     /* width: 80%; */
-    margin: 20px;
+    margin: auto 24%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -108,6 +108,16 @@
     border-bottom: 2px solid red;
     cursor: pointer;
   }
+  
+ 
+  .list-item {
+    min-height: 200px;
+  }
+  .buttonContainer1 {
+    position: relative;
+    display: inline-block;
+    left: 145px;
+  }
   .card {
     width: 200px;
     margin-top: 10px;
@@ -117,15 +127,6 @@
     border-radius: 5px;
     position: relative;
     display: none;
-  }
- 
-  .list-item {
-    min-height: 200px;
-  }
-  .buttonContainer1 {
-    position: relative;
-    display: inline-block;
-    left: 145px;
   }
   #addbutton {
     color: white;
